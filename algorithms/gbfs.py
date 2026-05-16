@@ -54,3 +54,4 @@ def _reconstruct_path(came_from: dict[str, str | None], goal: str) -> list[str]:
         path.append(current)
         current = came_from[current]
     path.reverse()
+    return path
