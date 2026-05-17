@@ -1,7 +1,7 @@
 """Uniform Cost Search (UCS) implementation."""
 
 import heapq
-from typing import List, Set, Tuple, TypedDict
+from typing import Dict, List, Set, Tuple, TypedDict
 
 from base_model import Graph, Node  # noqa: F401
 
